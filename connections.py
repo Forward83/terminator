@@ -32,7 +32,7 @@ def connect_to_host(ip):
         if inner_ind == 1:
             sys.exit('Connection to host {} failed. Password is wrong, verify it in connection script'.format(ip))
         print(child.before.decode('utf-8'))
-        print('\nPort forward 70{}:169.254.1.1:80 configured\n'.format(port))
+        print('\nPort forward 70{0}:169.254.1.1:80 configured.\n \nURL: http://localhost:70{1}\n'.format(port, port))
         print()
         child.send('\r')
         child.setwinsize(32, 80)
