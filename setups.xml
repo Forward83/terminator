@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<SETUPS>
+    <SETUP name="PTP550-41">
+        <TERMINAL_IP>172.22.121.109</TERMINAL_IP>
+        <AP>
+            <HOST_IP>172.22.121.101</HOST_IP>
+            <TTY>/dev/ttyUSB0</TTY>
+        </AP>
+        <SM>
+            <HOST_IP>172.22.121.102</HOST_IP>
+            <TTY>/dev/ttyUSB1</TTY>
+        </SM>
+    </SETUP>
+    <SETUP name="F300-F300">
+        <TERMINAL_IP>172.22.121.109</TERMINAL_IP>
+        <AP>
+            <HOST_IP>172.22.121.103</HOST_IP>
+            <TTY>/dev/ttyUSB2</TTY>
+        </AP>
+        <SM>
+            <HOST_IP>172.22.121.104</HOST_IP>
+            <TTY>/dev/ttyUSB3</TTY>
+        </SM>
+    </SETUP>
+    <SETUP name="e2k-F130">
+        <TERMINAL_IP>172.22.121.109</TERMINAL_IP>
+        <AP>
+            <HOST_IP>172.22.121.107</HOST_IP>
+            <TTY>/dev/ttyUSB4</TTY>
+        </AP>
+        <SM>
+            <HOST_IP>172.22.121.108</HOST_IP>
+            <TTY>/dev/ttyUSB6</TTY>
+        </SM>
+    </SETUP>
+    <SETUP name="PTP550-Stability">
+        <TERMINAL_IP>172.22.122.159</TERMINAL_IP>
+        <AP>
+            <HOST_IP>172.22.122.151</HOST_IP>
+            <TTY>/dev/ttyUSB0</TTY>
+        </AP>
+        <SM>
+            <HOST_IP>172.22.122.152</HOST_IP>
+            <TTY>/dev/ttyUSB1</TTY>
+        </SM>
+    </SETUP>
+    <SETUP name="e3k-25">
+        <TERMINAL_IP>172.22.122.159</TERMINAL_IP>
+        <AP>
+            <HOST_IP>172.22.122.156</HOST_IP>
+            <TTY>/dev/ttyUSB4</TTY>
+        </AP>
+        <SM>
+            <HOST_IP>172.22.122.157</HOST_IP>
+            <TTY>/dev/ttyUSB5</TTY>
+        </SM>
+    </SETUP>
+    <SETUP name="F300-25">
+        <TERMINAL_IP>172.22.122.159</TERMINAL_IP>
+        <AP>
+            <HOST_IP>172.22.122.152</HOST_IP>
+            <TTY>/dev/ttyUSB2</TTY>
+        </AP>
+        <SM>
+            <HOST_IP>172.22.122.155</HOST_IP>
+            <TTY>/dev/ttyUSB3</TTY>
+        </SM>
+    </SETUP>
+</SETUPS>

@@ -1,0 +1,62 @@
+[[four_windows]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = a9ec7ec4-9e2e-4f08-9619-7e83dc1d0d43
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 1971:24
+      size = 1869, 1056
+      title = 
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 525
+      ratio = 0.5
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 931
+      ratio = 0.499732477261
+      type = HPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 931
+      ratio = 0.499732477261
+      type = HPaned
+    [[[terminal3]]]
+      command =
+      title = AP_host
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = a9ec7ec4-9e2e-4f08-9619-7e83dc1d0d43
+    [[[terminal4]]]
+      command =
+      title = SM_host
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 3a6050a2-7a7e-4971-ae7f-1ee2f714e19f
+    [[[terminal6]]]
+      command =
+      title = AP_Console
+      order = 0
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = 3365347e-29e6-48d1-b95b-d252ecf585d6
+    [[[terminal7]]]
+      command =
+      title = SM_Console
+      order = 1
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = bb6cf4b4-5a4a-42c2-996e-6e2b4fabf2d0
