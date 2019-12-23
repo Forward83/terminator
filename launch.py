@@ -5,7 +5,7 @@ import re
 
 # constants
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-xml_file = "setups.xml"
+xml_file = os.path.join(BASE_DIR, "setups.xml")
 USER = getpass.getuser()
 CONFIG_FILE = '/home/{}/.config/terminator/config'.format(USER)
 TEST_FILE = '/home/{}/term_config'.format(USER)
@@ -21,7 +21,7 @@ def create_setup_menu(xml_file):
     """
     f_path = os.path.join(BASE_DIR, xml_file)
     setups_dict = dict()
-    print ("\n Available setups:\n")
+    print("\n Available setups:\n")
     tree = ET.parse(f_path)
     root = tree.getroot()
     for ind, setup in enumerate(root.iter('SETUP')):
