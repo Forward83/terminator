@@ -93,11 +93,11 @@ def create_config_file():
                 if setup_arr_ind < 3:
                     line = '     command = cd {}; python3 connections.py -a {}\n'.format(BASE_DIR, selected_setup[setup_arr_ind])
                     data[line_ind] = line
-                else:
+                elif setup_arr_ind == 3 or setup_arr_ind == 4:
                     terminal_ip, tty = selected_setup[setup_arr_ind]
                     line = '     command = cd {}; python3 connections.py -a {} -t {}\n'.format(BASE_DIR, terminal_ip, tty)
                     data[line_ind] = line
-                if setup_arr_ind == 5:
+                else:
                     break
                 setup_arr_ind += 1
         fh.seek(0)
